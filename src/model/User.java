@@ -16,7 +16,6 @@ public class User {
 		this.last_name = last_name;
 		this.mobile_number = mobile_number;
 	}
-
 	
 	public String getUsername() {
 		return username;
@@ -57,7 +56,10 @@ public class User {
 	public void setMobile_number(String mobile_number) {
 		this.mobile_number = mobile_number;
 	}
-	
-	
+
+	public String toString() {
+		return "User containing username=" + username + ", password=" + password + ", first_name=" + first_name + ", last_name="
+				+ last_name + ", mobile_number=" + mobile_number;
+	}	
 	
 }
