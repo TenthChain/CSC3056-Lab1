@@ -51,8 +51,6 @@ public class Account {
 	}
 
 	public String toString() {
-		return "Account containing account_number=" + account_number + ", username_of_account_holder="
-				+ username_of_account_holder + ", account_type=" + account_type + ", account_opening_date="
-				+ account_opening_date;
+		return account_number + "," + username_of_account_holder + "," + account_type + "," + account_opening_date;
 	}
 }
