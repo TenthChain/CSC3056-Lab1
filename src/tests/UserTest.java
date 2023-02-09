@@ -58,5 +58,15 @@ public class UserTest {
 		if (passed) {
 			System.out.println("All TCs passed.");
 		}
+		
+		// Using Java asserts
+		
+		assert testUser.getUsername() == test_username;
+		assert testUser.getPassword() == test_password;
+		assert testUser.getFirst_name() == test_first_name;
+		assert testUser.getLast_name() == test_last_name;
+		assert testUser.getMobile_number() == test_mobile_number;
+
+		System.out.println("All Java assertions in the test suite passed (no fails).");
 	}
 }
